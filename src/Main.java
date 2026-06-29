@@ -4,6 +4,6 @@ public class Main {
     }
 
     public static boolean isNumberEven(int n){
-        return false;
-    };
+        return n % 2 == 0;
+    }
 }
