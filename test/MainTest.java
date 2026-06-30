@@ -21,4 +21,7 @@ class MainTest {
     void checkForEvenPositiveNum() {
         assertTrue(Main.isNumberEven(2));
     }
+
+    @org.junit.jupiter.api.Test
+    void checkForZero() { assertTrue(Main.isNumberEven(0)); }
 }
