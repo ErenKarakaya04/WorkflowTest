@@ -19,6 +19,6 @@ class MainTest {
 
     @org.junit.jupiter.api.Test
     void checkForEvenPositiveNum() {
-        assertFalse(Main.isNumberEven(2));
+        assertTrue(Main.isNumberEven(2));
     }
 }
